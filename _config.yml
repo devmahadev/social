@@ -40,22 +40,22 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+   # url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  #- title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+ # - title: bitbucket 
+   # url: http://bitbucket.org/jekyll
+ # - title: github
+  #  url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Akadeemia tee 24
+  - line: Mustamäe, 12611 Tallinn
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+#markdown: kramdown
+#permalink: pretty
