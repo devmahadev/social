@@ -75,7 +75,7 @@
                 success: function(response)
                 {
                     $("#contact-form")[0].reset();
-                    $("#messages").html("<b>Thank you for your submission, we'll get back to you soon :)</b>");//text("Thank you for your submission, we'll get back to you soon :)");
+                    $("#messages").text("<b>Thank you for your submission, we'll get back to you soon :)</b>");//text("Thank you for your submission, we'll get back to you soon :)");
                     console.log(response); // response contains the form submission that was just made
                 },
             });
