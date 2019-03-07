@@ -20,14 +20,6 @@
       }
       div.field_with_errors{display: inline;}
     </style>
-    
-  <script type="text/javascript">
-  window.onload = (function(){
-      if(window.location.hash == '#thank-you'){
-      document.getElementById('thank-you-message').className = 'none';
-      }
-      })
-</script>
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | absolute_url }}">
@@ -46,4 +38,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src='https://www.google.com/recaptcha/api.js?render=6Lcq85UUAAAAAGgZhHLMG09_ivUYw7zTDGqrw39o'></script>
+<script>
+function enableSubmit() {
+  var btn = document.getElementById('submit');
+  btn.disabled = false;
+  btn.title = '';
+}
+</script>
+
 </head>
