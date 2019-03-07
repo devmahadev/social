@@ -1,4 +1,4 @@
-    <section id="gifts">
+<section id="gifts">
 <div class="container">
              <div class="row">
                 <div class="col-lg-12 text-center">                                 
@@ -6,7 +6,8 @@
                     <h3 class="section-subheading"> Choose from our packages </h3>  
                                 <div id="messages">
                                 </div>
-                            </div>
+                            </div>            
+                </div>
             </div>
     <div class="row">
         <div class="col-lg-12"> 
@@ -75,7 +76,7 @@
                 success: function(response)
                 {
                     $("#contact-form")[0].reset();
-                    $("#messages").text("Thank you for your submission, we'll get back to you soon :)");
+                    $("#messages").text(<h3 class="section-subheading">"Thank you for your submission, we'll get back to you soon :)" </h3> );
                     console.log(response); // response contains the form submission that was just made
                 },
             });
