@@ -9,8 +9,8 @@
                     <h2 class="section-heading">Buy a gift for someone.</h2>
                     <h3 class="section-subheading"> Choose from our packages </h3>     
                     <h3 class="section-subheading"><div id="messages"></div></h3> 
+                    <div class="widget">
                     <fieldset>
-                         <legend>Bed Type: </legend>
                          <label for="checkbox-nested-1"> Silver Package: 15 Euro per person
                                 <input type="checkbox" name="package1" value="Silver" checked id="checkbox-nested-1">
                          </label>
@@ -21,7 +21,7 @@
                                 <input type="checkbox" name="package3" value="Platinum" checked id="checkbox-nested-3">
                          </label>
                     </fieldset>
-
+                    </div>
                 </div>
             </div>
 
@@ -72,7 +72,13 @@
 	</div>
 </div>
 
-
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
 
     <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" charset="utf-8">
