@@ -1,5 +1,5 @@
 ---
-title: The Social
+title: The S(@)cial
 subtitle: Location & Expected Opening
 layout: default
 modal-id: 1
@@ -10,7 +10,7 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: The Social (Resto, BBQ & BAR) is expected to open for the public by mid of April at [Akadeemia tee 24](https://www.google.com/maps/dir/59.3983404,24.6677533/Akadeemia+tee+24+12611+Tallinn/@59.3977976,24.6647618,17z/data=!3m1!4b1!4m16!1m7!3m6!1s0x469295aa30ff92f7:0xd488aeeb86a8b0d9!2sAkadeemia+tee+24,+12611+Tallinn!3b1!8m2!3d59.3973752!4d24.6666443!4m7!1m0!1m5!1m1!1s0x469295aa30ff92f7:0xd488aeeb86a8b0d9!2m2!1d24.6666443!2d59.3973752) in [Taltech University campus](https://taltech.ee/). 
+description: The S(@)cial (Resto, BBQ & BAR) is expected to open for the public by mid of April at [Akadeemia tee 24](https://www.google.com/maps/dir/59.3983404,24.6677533/Akadeemia+tee+24+12611+Tallinn/@59.3977976,24.6647618,17z/data=!3m1!4b1!4m16!1m7!3m6!1s0x469295aa30ff92f7:0xd488aeeb86a8b0d9!2sAkadeemia+tee+24,+12611+Tallinn!3b1!8m2!3d59.3973752!4d24.6666443!4m7!1m0!1m5!1m1!1s0x469295aa30ff92f7:0xd488aeeb86a8b0d9!2m2!1d24.6666443!2d59.3973752) in [Taltech University campus]  https://taltech.ee/. 
 
 If you're looking for job (Manager, Chef, Pizza Maker, Waiter/Waitress, Cleaning Person), feel free to contact at +372 56828921. 
 
