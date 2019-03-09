@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12"> 
-<form action="https://liveformhq.com/form/76c1a724-96de-48df-9ab8-745e4211fb80" method="POST" enctype="multipart/form-data" accept-charset="utf-8" id="contact-form">
+<form action="https://liveformhq.com/form/76c1a724-96de-48df-9ab8-745e4211fb80" method="POST" id="contact-form">
              <div class="row">
                 <div class="col-lg-12 text-center"> 
                     <h2 class="section-heading">Are You Looking For A Job ??</h2>
@@ -32,10 +32,11 @@
                             </div>
 
                             <div class="col-md-6">
-                                <div class="control-group form-group">
+                              <!-- put this is form enctype="multipart/form-data" accept-charset="utf-8"
+                               <div class="control-group form-group">
                                     <input type="file" name="resume" accept="file_extension|image/*">
                                     <p class="help-block text-danger"></p>
-                                </div>
+                                </div> -->
                                 <div class="control-group form-group">
                                     <textarea name="message"  class="form-control" placeholder="Your Message *"  id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
@@ -43,7 +44,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
-                    <p>  <STRONG> <font color="white"><div id="messages"></div> </font></STRONG>    </p> 
+                   <h3 class="section-subheading"><div id="messages"></div> </font></STRONG>    </h3> 
                                 <button id="submit" type="submit" class="btn btn-xl">Send Message</button>
                             </div>
                  </div> 
