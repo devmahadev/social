@@ -4,15 +4,16 @@
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                     <ul class="list-inline quicklinks">
-                        <li><a href="">@Silicon DevOps</a></li>  
+                        <li>
+                                <a href="https://www.facebook.com/thesocial.tallinn/" target="_blank">@Silicon DevOps</a>
+                        </li>  
                         <li><a href="">HH.Mahadev Oü (14429267)</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                          
+                        <li><a  href="https://www.facebook.com/thesocial.tallinn/" target="_blank"></a>
                         </li>
                         {% endfor %}
                     </ul>
