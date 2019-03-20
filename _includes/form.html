@@ -125,7 +125,23 @@
   <input type="text" id="email" name="email"> <br />
   <input type="file" name="resume" accept="file_extension|audio/*|video/*|image/*|media_type">
   <button type="submit">Submit</button>
-</form>
+</form> 
+ 
+
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCPoLxSnBcjmUNcnEb5ll20WSXxudkNWYk",
+    authDomain: "thesocial-6e6b4.firebaseapp.com",
+    databaseURL: "https://thesocial-6e6b4.firebaseio.com",
+    projectId: "thesocial-6e6b4",
+    storageBucket: "thesocial-6e6b4.appspot.com",
+    messagingSenderId: "456998265288"
+  };
+  firebase.initializeApp(config);
+</script>
+
  
  
 </body>
