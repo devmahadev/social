@@ -8,16 +8,16 @@ description: "thesocial.tallinn@gmail.com"
 
 # Team names, titles and social links
 people:
-- name: Priit Pojev
-  pic: 1
-  position: General Manager
+- name: Apneet Kaur
+  pic: 1.gif
+  position: Director HR, Founder/CEO 
  #  social:
  #    - title: facebook
  #      url: #
 
-- name: Alex Kukk
-  pic: 2
-  position: Executive Chef
+- name: Shankar Singh
+  pic: 2.gif
+  position: Director Restaurant Operations
  #  social:
 #     - title: instagram
  #      url: #
@@ -26,9 +26,9 @@ people:
   #   - title: 
   #     url: #
 
-- name: Annika Varvarova
-  pic: 3
-  position: Head Chef
+- name: Deepak Rampal
+  pic: 3.gif
+  position: Director Finance, Business & IT Development
  #  social:
   #   - title: instagram
   #     url: #
