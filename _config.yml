@@ -9,14 +9,14 @@ description: "thesocial.tallinn@gmail.com"
 # Team names, titles and social links
 people:
 - name: Apneet Kaur
-  pic: 1.gif
+  pic: 1
   position: Director HR, Founder/CEO 
  #  social:
  #    - title: facebook
  #      url: #
 
 - name: Shankar Singh
-  pic: 2.gif
+  pic: 2
   position: Director Restaurant Operations
  #  social:
 #     - title: instagram
@@ -27,7 +27,7 @@ people:
   #     url: #
 
 - name: Deepak Rampal
-  pic: 3.gif
+  pic: 3
   position: Director Finance, Business & IT Development
  #  social:
   #   - title: instagram
