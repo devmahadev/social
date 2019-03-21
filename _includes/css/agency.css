@@ -638,8 +638,10 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  width: 350px;
 }
 
 .team-member img:hover {
