@@ -904,7 +904,7 @@ body {
 
         h2.main-section-title:before, h2.main-section-title:after {
             content:url('img/header_decorator-elegant.png');
-            margin: 14px;
+            margin: 20px;
             color: #D1BC87;
             vertical-align: text-bottom;
         }
