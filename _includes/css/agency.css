@@ -876,3 +876,34 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.slide-sep {
+    display: block;
+    width: 115px;
+    height: 24px;
+    background: url(img/slide-separator_elegant.png);
+    background-repeat: no-repeat;
+    margin: -42px auto;
+    margin-bottom: 42px;
+    content: " ";
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+        h2.main-section-title {
+            text-align: center;
+            font-family: "Cabin";
+            font-weight: 600;
+            font-size: 28px;
+            color:#383733;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        h2.main-section-title:before, h2.main-section-title:after {
+            content:url(img/header_decorator-elegant.png);
+            margin: 14px;
+            color: #D1BC87;
+            vertical-align: text-bottom;
+        }
