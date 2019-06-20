@@ -919,3 +919,9 @@ body {
      text-rendering: optimizeLegibility; 
     -moz-osx-font-smoothing: grayscale;
 }
+
+.menu-center-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
