@@ -898,7 +898,7 @@ body {
             font-weight: 600;
             font-size: 28px;
             color:#c0a756;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             text-align: center;
             -webkit-font-smoothing: antialiased;
             text-rendering: optimizeLegibility;
@@ -933,6 +933,5 @@ body {
 
 .font-smoothing {
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
 }
