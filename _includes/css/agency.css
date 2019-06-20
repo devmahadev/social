@@ -894,12 +894,16 @@ body {
 
         h2.main-section-title {
             text-align: center;
-            font-family: "Cabin";
+            font-family: "Great Vibes", serif;
             font-weight: 600;
             font-size: 28px;
-            color:#383733;
-            text-transform: uppercase;
+            color:#c0a756;
             margin-bottom: 40px;
+            text-align: center;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+
         }
 
         h2.main-section-title:before, h2.main-section-title:after {
@@ -925,4 +929,10 @@ body {
     margin: 0 auto;
     margin-bottom: 3em;
     width: 350px;
+}
+
+.font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
 }
