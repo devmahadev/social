@@ -937,11 +937,18 @@ body {
     font-weight: normal;
 }
 
-.menu-header {
+h2.menu-header {
     margin-bottom: 25px;
     font-family: "Great Vibes", serif;
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
+    color:#c0a756;
+}
+
+p.menu-description {
+    font-size: 14px;
+    line-height: 1.75;
+    width: 900px;
     color:#c0a756;
 }
