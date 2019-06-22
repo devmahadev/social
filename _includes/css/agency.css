@@ -936,3 +936,12 @@ body {
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
 }
+
+.menu-header {
+    margin-bottom: 25px;
+    font-family: "Great Vibes", serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    color:#c0a756;
+}
