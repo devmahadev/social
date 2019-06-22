@@ -938,12 +938,14 @@ body {
 }
 
 h2.menu-header {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     font-family: "Great Vibes", serif;
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-    color:#c0a756;
+    font-size: 18px;
+    /* font-style: italic; */
+    /* line-height: 40px; */
+    color: #c0a756;
+    /* text-align: left; */
+    margin-left: -40px;
 }
 
 p.menu-description {
