@@ -971,14 +971,14 @@ p.menu-description {
   float: left;
   width: 33.33%;
   padding: 5px;
-  margin-left: 100px
+  margin-left: 120px
 }
 
 .column-img-SBS-right {
   float: left;
   width: 33.33%;
   padding: 5px;
-  margin-right: 100px
+  margin-right: 90px
 }
 
 /* Clearfix (clear floats) */
