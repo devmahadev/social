@@ -953,3 +953,18 @@ p.menu-description {
     width: 900px;
     color:#c0a756;
 }
+
+
+
+.column-img-SBS {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-img-SBS::after {
+  content: "";
+  clear: both;
+  display: table;
+}
