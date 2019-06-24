@@ -955,6 +955,10 @@ p.menu-description {
 }
 
 
+.elephant img {
+    width: 400px;
+    height: 50px;
+}
 
 .column-img-SBS {
   float: left;
