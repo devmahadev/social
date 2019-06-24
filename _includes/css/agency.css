@@ -964,6 +964,21 @@ p.menu-description {
   float: left;
   width: 33.33%;
   padding: 5px;
+  margin-left: 110px
+}
+
+.column-img-SBS-left {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 110px
+}
+
+.column-img-SBS-right {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 110px
 }
 
 /* Clearfix (clear floats) */
