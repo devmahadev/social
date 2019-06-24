@@ -993,3 +993,11 @@ p.menu-description {
     margin: 0 auto;
     width: 100px;
 }
+
+
+h2.main-dishes-title:before, h2.main-dishes-title:after {
+            content:url('img/.slide-separator_elegant.png');
+            margin: 20px;
+            color: #D1BC87;
+            vertical-align: text-bottom;
+        }
