@@ -1003,6 +1003,15 @@ h2.main-dishes-title:before, h2.main-dishes-title:after {
             vertical-align: text-bottom;
         }
 
+            *{margin: 0; padding: 0;}
+            nav .submenu{width: 800px;margin: auto;}
+            
+            ul .submenu{list-style: none;}
+            
+            ul li .submenu{ width: 120px; background: #0080cd; float: left; height: 35px; line-height: 35px; text-align: center; margin-right: 2px; position: relative;}
+            
+            ul li:hover .submenu{ background: #0e6ea8;}
+                    
 ul li ul .submenu{display: none;}
             
 ul li:hover ul .submenu{ display: block;}        
