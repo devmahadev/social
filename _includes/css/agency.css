@@ -1002,3 +1002,7 @@ h2.main-dishes-title:before, h2.main-dishes-title:after {
             color: #D1BC87;
             vertical-align: text-bottom;
         }
+
+ul li ul .submenu{display: none;}
+            
+ul li:hover ul .submenu{ display: block;}        
