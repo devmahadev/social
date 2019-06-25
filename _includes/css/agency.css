@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li {
-    float: right;
+    float: left;
 }
 
 
