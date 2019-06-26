@@ -205,9 +205,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.navbar-default .nav li {
+
+/*.navbar-default .nav li {
     float: left;
-}
+} */
 
 
 .navbar-default .nav li a {
