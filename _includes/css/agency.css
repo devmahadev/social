@@ -996,9 +996,10 @@ p.menu-description {
 }
 
 .orange-leaves-center img{
-    display: block;
-    margin: 0 auto;
-    width: 100px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
