@@ -1022,3 +1022,61 @@ h2.main-dishes-title:before, h2.main-dishes-title:after {
 ul li ul .submenu{display: none;}
             
 ul li:hover ul .submenu{ display: block;}        
+
+
+@media (min-width: 992px)
+.mediumnavigation .dropdown-menu {
+    border: 0;
+    box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05 );
+    margin: 15px 0;
+}
+
+.mediumnavigation .dropdown-menu {
+    margin: 0 0 15px 0;
+    box-shadow: none;
+    border: 0;
+}
+
+.show>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #292b2c;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}   
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 7px 1.5rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #292b2c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
+}
