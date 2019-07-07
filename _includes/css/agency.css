@@ -1023,7 +1023,7 @@ ul li ul .submenu{display: none;}
             
 ul li:hover ul .submenu{ display: block;}        
 
-
+/*
 @media (min-width: 992px)
 .mediumnavigation .dropdown-menu {
     border: 0;
@@ -1131,3 +1131,4 @@ ul li:hover ul .submenu{ display: block;}
     -ms-flex-direction: row;
     flex-direction: row;
 }
+*/
