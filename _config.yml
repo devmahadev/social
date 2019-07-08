@@ -8,14 +8,25 @@ description: "thesocial.tallinn@gmail.com"
 
 # Team names, titles and social links
 people:
-- name: Apneet K.
+- name: Apneet Kaur
   pic: 1
   position: Director HR, Founder/CEO 
  #  social:
  #    - title: facebook
  #      url: #
 
-- name: Deepak R.
+- name: Shankar Singh
+  pic: 2
+  position: Director Restaurant Operations
+ #  social:
+#     - title: instagram
+ #      url: #
+ #    - title: facebook
+ #      url: #
+  #   - title: 
+  #     url: #
+
+- name: Deepak Rampal
   pic: 3
   position: Director Finance  |
    Business & IT Development
@@ -27,51 +38,6 @@ people:
   #   - title: google-plus
   #     url: #
 
-- name: Shankar S.
-  pic: 2
-  position: Director Restaurant Operations
- #  social:
-#     - title: instagram
- #      url: #
- #    - title: facebook
- #      url: #
-  #   - title: 
-  #     url: #
-
-
-  - name: Rajesh B.
-  pic: 4
-  position: Head Chef| Tandoor, Grill Master
- #  social:
-  #   - title: instagram
-  #     url: #
-  #   - title: facebook
-  #     url: #
-  #   - title: google-plus
-  #     url: #
-
-
-- name: Abhishek R.
-  pic: 5
-  position: Manager
- #  social:
-  #   - title: instagram
-  #     url: #
-  #   - title: facebook
-  #     url: #
-  #   - title: google-plus
-  #     url: #
-
-  - name: Ek Raj G.
-  pic: 6
-  position: Head Chef| Curry Master
- #  social:
-  #   - title: instagram
-  #     url: #
-  #   - title: facebook
-  #     url: #
-  #   - title: google-plus
-  #     url: #
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
