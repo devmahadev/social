@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #ecf0f14f;  /*{{ site.data.template.color.primary }};*/
 }
 
 p {
@@ -1023,6 +1023,17 @@ ul li ul .submenu{display: none;}
             
 ul li:hover ul .submenu{ display: block;}        
 
+.fa-inverse-glass {
+    color: #d4ad29;
+}
+
+.fa-inverse-fullMenu{
+    color: #ec7419;
+}
+
+.fa-inverse-vegan{
+    color: #3bec19;
+}
 /*
 @media (min-width: 992px)
 .mediumnavigation .dropdown-menu {
