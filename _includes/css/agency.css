@@ -1039,17 +1039,17 @@ ul li:hover ul .submenu{ display: block;}
 
 .fa-inverse-glass {
     color: #d4ad29;
-      animation: fa-spin 2s infinite ease-in;   
+      animation: fa-spin 3s infinite ease-in;   
 }
 
 .fa-inverse-fullMenu{
     color: #ec7419;
-      animation: fa-spin 2s infinite ease-in;   
+      animation: fa-spin 3s infinite ease-in;   
 }
 
 .fa-inverse-vegan{
     color: #3bec19;
-      animation: fa-spin 2s infinite ease-in;   
+      animation: fa-spin 3s infinite ease-in;   
 }
 /*
 @media (min-width: 992px)
