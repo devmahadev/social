@@ -168,6 +168,8 @@
   left: 0;
   width: 100%;
   text-align: center;
+  animation: fa-spin 2s infinite linear; 
+  
 }
 .fa-stack-1x {
   line-height: inherit;
