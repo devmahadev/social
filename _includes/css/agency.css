@@ -67,6 +67,12 @@ h6 {
 
 .bg-section-img {
     background-image: url('{{ site.baseurl }}/img/back3.jpg');
+    background-color: #cccccc00;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .bg-darkest-gray {
