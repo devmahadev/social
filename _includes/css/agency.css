@@ -1051,6 +1051,22 @@ ul li:hover ul .submenu{ display: block;}
     color: #3bec19;
       animation: fa-spin 3s infinite ease-in;   
 }
+
+.fa-inverse-wolt {
+    color: #1624ca;
+}
+
+.fa-inverse-takeOut{
+    color: #ec7419;
+      animation: fa-spin 3s infinite ease-in;   
+}
+
+.fa-inverse-taltech{
+    color: #7bd429; 
+}
+
+
+
 /*
 @media (min-width: 992px)
 .mediumnavigation .dropdown-menu {
