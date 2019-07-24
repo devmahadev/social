@@ -1065,12 +1065,7 @@ ul li:hover ul .submenu{ display: block;}
     color: #7bd429; 
 }
 
-.daymeal-img-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
+
 
 /*
 @media (min-width: 992px)
