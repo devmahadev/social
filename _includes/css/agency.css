@@ -1066,6 +1066,77 @@ ul li:hover ul .submenu{ display: block;}
 }
 
 
+.inner {
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 0 30px;
+}
+
+.article-list .post {
+    position: relative;
+}
+
+.article {
+    margin-bottom: 90px;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.article-list .article:before {
+    background-color: #d4d3d3;
+    content: "";
+    height: 100%;
+    left: -30px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+.article-header {
+    margin-bottom: 30px;
+}
+
+
+.tag-links {
+    color: #5a5a5a;
+    font-family: "Playfair Display",serif;
+    font-size: 14px;
+}
+
+.article-header-wrap {
+    position: relative;
+    padding-top: 10px;
+}
+
+.article-header-wrap:before {
+    background-color: #fff;
+    border: 1px solid #adabac;
+    border-radius: 50%;
+    content: "";
+    height: 11px;
+    left: -36px;
+    position: absolute;
+    top: 27px;
+    width: 11px;
+}
+
+.article-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.article-meta {
+    color: #adabac;
+    font: italic 16px/1.5 "Playfair Display",serif;
+}
+
+
+.clear:before, .clear:after, .article-meta:before, .article-meta:after, .article-content:before, .article-content:after, .article-navigation:before, .article-navigation:after {
+    content: "";
+    display: table;
+}
+
 
 /*
 @media (min-width: 992px)
