@@ -1072,18 +1072,15 @@ ul li:hover ul .submenu{ display: block;}
     padding: 0 30px;
 }
 
-.article-list .post {
+.articlep-list .articlep {
     position: relative;
 }
 
-.article {
+.articlep {
     margin-bottom: 90px;}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block;
-}
 
-.article-list .article:before {
+.articlep-list .articlep:before {
     background-color: #d4d3d3;
     content: "";
     height: 100%;
@@ -1093,7 +1090,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     width: 1px;
 }
 
-.article-header {
+.articlep-header {
     margin-bottom: 30px;
 }
 
@@ -1104,12 +1101,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     font-size: 14px;
 }
 
-.article-header-wrap {
+.articlep-header-wrap {
     position: relative;
     padding-top: 10px;
 }
 
-.article-header-wrap:before {
+.articlep-header-wrap:before {
     background-color: #fff;
     border: 1px solid #adabac;
     border-radius: 50%;
@@ -1121,18 +1118,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     width: 11px;
 }
 
-.article-title {
+.articlep-title {
     font-size: 36px;
     margin-bottom: 15px;
 }
 
-.article-meta {
+.articlep-meta {
     color: #adabac;
     font: italic 16px/1.5 "Playfair Display",serif;
 }
 
 
-.clear:before, .clear:after, .article-meta:before, .article-meta:after, .article-content:before, .article-content:after, .article-navigation:before, .article-navigation:after {
+.clear:before, .clear:after, .articlep-meta:before, .articlep-meta:after, .articlep-content:before, .articlep-content:after, .articlep-navigation:before, .articlep-navigation:after {
     content: "";
     display: table;
 }
