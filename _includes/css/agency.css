@@ -1139,14 +1139,7 @@ ul li:hover ul .submenu{ display: block;}
     display: table;
 }
 
-.clear:after, .articlep-meta:after, .articlep-content:after, .articlep-navigation:after {
-    clear: both;
-}
 
-.articlep:before, .articlep:after, .articlep-meta:before, .articlep-meta:after, .articlep-content:before, .articlep-content:after, .articlep-navigation:before, .articlep-navigation:after {
-    content: "";
-    display: table;
-}
 
 .articlep-meta .author-avatar {
     border-radius: 50%;
