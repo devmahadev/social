@@ -1135,7 +1135,7 @@ ul li:hover ul .submenu{ display: block;}
 }
 
 
-.post-meta .author-avatar {
+.articlep-meta .author-avatar {
     border-radius: 50%;
     float: left;
     height: 30px;
@@ -1144,7 +1144,7 @@ ul li:hover ul .submenu{ display: block;}
     width: 30px;
 }
 
-.post-meta .author-avatar {
+.articlep-meta .author-avatar {
     border-radius: 50%;
     float: left;
     height: 30px;
@@ -1153,7 +1153,7 @@ ul li:hover ul .submenu{ display: block;}
     width: 30px;
 }
 
-.post-meta .author-avatar {
+.articlep-meta .author-avatar {
     border-radius: 50%;
     float: left;
     height: 30px;
@@ -1162,7 +1162,7 @@ ul li:hover ul .submenu{ display: block;}
     width: 30px;
 }
 
-.post-meta .author-avatar {
+.articlep-meta .author-avatar {
     border-radius: 50%;
     float: left;
     height: 30px;
