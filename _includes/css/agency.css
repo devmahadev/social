@@ -1158,17 +1158,7 @@ ul li:hover ul .submenu{ display: block;}
     width: 160px;
 }
 
-.articlep-meta .published, .articlep-meta .reading-time {
-    font: normal 12px/1.5 "Lato",sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-@media only screen and (max-width: 1160px) 
-
-}
-
-@media only screen and (max-width: 1160px) {
+@media(min-width:768px) {
 .articlep-header-wrap .published {
     border-left: 1px solid #d4d3d3;
     display: inline-block;
@@ -1180,11 +1170,11 @@ ul li:hover ul .submenu{ display: block;}
     }
 }
 
-
-@media only screen and (max-width: 640px){
-html {
-    font-size: 100%;
-}}
+.articlep-meta .published, .articlep-meta .reading-time {
+    font: normal 12px/1.5 "Lato",sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 /*
 @media (min-width: 992px)
