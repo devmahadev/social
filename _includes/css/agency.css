@@ -688,6 +688,13 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+section#quiz {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/tallinnQuiz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -1198,6 +1205,21 @@ ul li:hover ul .submenu{ display: block;}
 @media only screen and (min-width:768px)){.kg-gallery-row{-ms-flex-direction:column;flex-direction:column;margin:0}.kg-gallery-row .kg-gallery-image{margin:0 0 15px}.pagination{padding-bottom:45px;padding-top:45px}.newer-articleps,.older-articleps{margin-top:0;position:relative;top:auto}.newer-articleps{left:auto;margin-bottom:30px}.older-articleps{margin-top:30px;right:auto}.page-number{display:block}.nav-previous,.nav-next{padding-bottom:300px}.nav-inside{top:75px}.nav-title{font-size:20px}}
 
 @media only screen and (min-width:768px)){.share-articlep span{display:block}}
+
+.quiz-box {
+background-color: lightgrey; 
+border: 1px solid;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inner-box {
+  width: 800px;
+  border: 1px solid;
+background-color: white; 
+
+}
 /*
 @media (min-width: 992px)
 .mediumnavigation .dropdown-menu {
