@@ -692,6 +692,7 @@ section#quiz {
     background-image: url('{{ site.baseurl }}/img/tallinnQuiz.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 section#contact .section-heading {
