@@ -72,8 +72,8 @@ The S(@)cial (Resto, BBQ & BAR) has opened the door for public on 15th June, 201
 
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
-                   <h3 class="section-subheading"><div id="quiz-messages"></div> </font></STRONG>    </h3> 
-                                <button id="tryWin" type="submit" class="btn btn-xl">Try & Win</button>
+                   <h3 class="section-subheading"><div id="quiz-messages"></div></h3> 
+                                <button id="submit" type="submit" class="btn btn-xl">Try & Win</button>
                             </div>
                  </div> 
                  </div>   
@@ -82,32 +82,18 @@ The S(@)cial (Resto, BBQ & BAR) has opened the door for public on 15th June, 201
     </div>
 </div>
   <style>
-  #quiz-messages {
+  #contact-messages {
     color: black;
     margin: 10px;
   }
   </style>
-    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" charset="utf-8">
-        $("#quiz-form").on("tryWin", function(e) {
-            e.preventDefault(); // to stop the form from being submitted
-
-            $.ajax({
-                type: "POST",
-                url: $(this).attr("action"),
-                data: $(this).serialize(),
-                headers:
-                {
-                    "Accept": "application/json"
-                },
-                success: function(response)
-                {
-                    $("#quiz-form")[0].reset();
-                    $("#quiz-messages").text("Thank you for your submission, we'll get back to you soon :)");
-                    console.log(response); // response contains the form submission that was just made
-                },
-            });
-        });
+			$("#quiz-form").on("submit", function(e) {
+				$('#quiz-messages').text("Thank you for your submission, we'll get back to you soon :)");
+				$("#quiz-form")[0].reset();
+				// Prevent reload page
+				e.preventDefault();
+			});
     </script>
     </section>
 
