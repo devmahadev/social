@@ -693,15 +693,8 @@ section#quiz {
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: bottom;
-}
-
-@media(min-width:767px) {
-	section#quiz {
-    background-image: url('{{ site.baseurl }}/img/tallinnQuiz.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-	}
+	    background-size: contain;
+    background-size: 90%;
 }
 
 section#contact .section-heading {
