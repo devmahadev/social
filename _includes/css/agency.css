@@ -695,6 +695,15 @@ section#quiz {
     background-position-y: bottom;
 }
 
+@media(min-width:767px) {
+	section#quiz {
+    background-image: url('{{ site.baseurl }}/img/tallinnQuiz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+	}
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -714,6 +723,11 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+}
+
+section#quiz .form-group textarea.form-control {
+    margin: 0px 11px 0px 0px;
+    height: 105px;
 }
 
 section#contact .form-control:focus {
