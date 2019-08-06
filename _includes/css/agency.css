@@ -690,7 +690,7 @@ section#contact {
 
 section#catering {
     background-color: #fff;
-    background-image: url('{{ site.baseurl }}/img/cateringbackr.png');
+   /* background-image: url('{{ site.baseurl }}/img/cateringbackr.png');*/
     background-position: center;
     background-position-y: bottom;
     background-size: 90%;
