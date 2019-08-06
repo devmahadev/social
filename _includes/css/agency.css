@@ -690,9 +690,10 @@ section#contact {
 
 section#catering {
     background-color: #fff;
-    background-image: url('{{ site.baseurl }}/img/cateringBack2.jpg');
+    background-image: url('{{ site.baseurl }}/img/cateringbackr.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 90%;
 }
 
 section#quiz {
