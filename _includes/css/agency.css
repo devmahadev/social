@@ -1079,6 +1079,11 @@ ul li:hover ul .submenu{ display: block;}
     color: #7bd429; 
 }
 
+.fa-inverse-sun-icon{
+    color: #fbcf36;
+    animation: fa-spin 2s infinite linear; 
+}
+
 /*
 .inner {
     margin: 0 auto;
