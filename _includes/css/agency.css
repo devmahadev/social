@@ -1093,7 +1093,6 @@ ul li:hover ul .submenu{ display: block;}
 }
 
 .fawsome-OrderButton{
-    display: inline-block;
     padding: 20px;
     margin: 2px;
     box-sizing: border-box;
