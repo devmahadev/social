@@ -1092,6 +1092,17 @@ ul li:hover ul .submenu{ display: block;}
     animation: fa-spin 2s infinite linear; 
 }
 
+.fawsome-OrderButton{
+    display: inline-block;
+    padding: 20px;
+    margin: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff !important;
+}
+
 /*
 .inner {
     margin: 0 auto;
