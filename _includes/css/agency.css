@@ -1103,8 +1103,7 @@ ul li:hover ul .submenu{ display: block;}
 
 .robot-delivery{
     color: #ef8b17;
-    background-image: url('{{ site.baseurl }}/img/robot.gif');   
-}
+height: 120%;width: 120%;vertical-align: sub;margin-top: -50px;margin-left: -15px;}
 
 .fa-inverse-taltech{
     color: #7bd429; 
