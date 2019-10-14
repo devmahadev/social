@@ -1101,6 +1101,11 @@ ul li:hover ul .submenu{ display: block;}
       animation: fa-spin 3s infinite ease-in;   
 }
 
+.robot-delivery{
+    color: #ef8b17;
+    background-image: url('{{ site.baseurl }}/img/robot.gif');   
+}
+
 .fa-inverse-taltech{
     color: #7bd429; 
 }
