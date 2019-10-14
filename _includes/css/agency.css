@@ -285,7 +285,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/TheSocialCover.mp4');
+    background-image: url('{{ site.baseurl }}/img/TheSocialCover.gif');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
