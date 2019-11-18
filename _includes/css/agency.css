@@ -1135,7 +1135,7 @@ height: 120%;width: 120%;vertical-align: sub;margin-top: -35px;margin-left: -15p
 
 .orderFood-button{
     display: inline-block;
-    padding: 20px;
+    padding: 20px 35px;
     margin: 2px;
     box-sizing: border-box;
     cursor: pointer;
