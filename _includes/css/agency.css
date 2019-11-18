@@ -840,6 +840,16 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+
+.orderFood-Options {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
