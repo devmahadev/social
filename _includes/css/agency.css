@@ -1174,6 +1174,26 @@ height: 120%;width: 120%;vertical-align: sub;margin-top: -35px;margin-left: -15p
   text-align: center;
   margin-top: 20px;
 }
+#myDIV4 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#myDIV5 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#myDIV6 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
 
 /*
 .inner {
