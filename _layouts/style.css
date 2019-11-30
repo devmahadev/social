@@ -1,7 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/62-layout.css %}
-{% include css/demo.css %}
-{% include css/jquery.accordion.css %}
+
 
 {{ content }}
