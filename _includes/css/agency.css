@@ -1154,6 +1154,14 @@ height: 120%;width: 120%;vertical-align: sub;margin-top: -35px;margin-left: -15p
     transition: filter 0.4s ease-out;
 }
 
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
 /*
 .inner {
     margin: 0 auto;
