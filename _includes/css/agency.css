@@ -1149,16 +1149,32 @@ height: 120%;width: 120%;vertical-align: sub;margin-top: -35px;margin-left: -15p
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
     border-radius: 3px;
     background-clip: padding-box;
-    background-color: #ef8b17;
+    background-color: #ef8b17;	
     box-shadow: 0 1px 0 rgba(0,0,0,.15);
     transition: filter 0.4s ease-out;
 }
 
-#myDIV {
+#myDIV1 {
   width: 100%;
   padding: 50px 0;
   text-align: center;
   background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myDIV2 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: red;
+  margin-top: 20px;
+}
+
+#myDIV3 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: yellow;
   margin-top: 20px;
 }
 
