@@ -287,10 +287,10 @@ header {
     overflow: hidden;
     display: inline-block;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     color: #fff;
-    /* background-attachment: scroll; */
-    /* background-image: url(/img/TheSocialCover.mp4); */
+    background-attachment: scroll; 
+    background-image: url(/img/valentine.jpg); 
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
