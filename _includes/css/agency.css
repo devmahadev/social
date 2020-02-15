@@ -287,6 +287,7 @@ header {
     overflow: hidden;
     display: inline-block;
     text-align: center;
+    position: fixed;
     color: #fff;
     background-attachment: scroll; 
     background-image: url(/img/valentine.jpg); 
