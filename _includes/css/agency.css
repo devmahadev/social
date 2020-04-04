@@ -770,7 +770,7 @@ section#quiz {
 }
 
 section#paymentOnline {
-    background-image: url('{{ site.baseurl }}/img/corona-hero.png');  
+    background-image: url('{{ site.baseurl }}/img/tallinnQuiz.png');  
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: bottom;
