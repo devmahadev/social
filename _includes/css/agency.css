@@ -769,6 +769,15 @@ section#quiz {
     background-size: 90%;
 }
 
+section#paymentOnline {
+    background-image: url('{{ site.baseurl }}/img/corona-hero.png');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+	    background-size: contain;
+    background-size: 90%;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
