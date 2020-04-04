@@ -796,6 +796,23 @@ section#paymentOnline {
 
 }
 
+.card-image {
+    float: right;
+    line-height: 0;
+    margin-left: -24px;
+    margin-right: 37px;
+    max-width: 530px;
+}
+
+.card-copy {
+    width: 55%;
+    min-width: 55%;
+}
+
+.coronaIn {
+    padding: 60px 0 60px 40px;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
