@@ -841,25 +841,6 @@ section#paymentOnline {
     font-size: 26px!important;
 }}
 
-
-.flex-container{
-    width: 80%;
-    min-height: 300px;
-    margin: 0 auto;
-    display: -webkit-flex; /* Safari */     
-    display: flex; /* Standard syntax */
-}
-.flex-container .column1{
-    padding: 10px;
-    background: #dbdfe5;
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
-}
-.flex-container .column2{
-    background: #b4bac0;
-}
-
 section#contact .section-heading {
     color: #fff;
 }
