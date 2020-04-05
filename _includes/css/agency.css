@@ -865,11 +865,16 @@ section#paymentOnline {
 
 @media (max-width: 800px) {
     .col-A {
-       
+       width: 100%;
     }
+	
+	.col-A img {
+		width: 50%;
+	}
 
     .col-B {
         width: 100%;
+		padding: 0px 5px 0px 5px;
     }
 
     .co-container {
