@@ -142,30 +142,33 @@ fieldset[disabled] .btn-primary.active {
 
 
 .btn-x11 {
+	width:210px;
     padding: 20px 40px;
-    border-color: #281ce6;
+    border-color: #e74c3c;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #281ce6;
+    background-color: #e74c3c;
 }
 
 .btn-x22 {
+	width:210px;
     padding: 20px 40px;
-    border-color: #FFFFFF;
+    border-color: #fec503;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #191919;
-    background-color: #FFFFFF;
+    background-color: #fec503;
 }
 
 .orderFood-button33 {
+	width:210px;
     display: inline-block;
     padding: 20px 35px;
     margin: 2px;
@@ -181,7 +184,8 @@ fieldset[disabled] .btn-primary.active {
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
     border-radius: 3px;
     background-clip: padding-box;
-    background-color: #333333;
+    background-color: #f39c12;
+    border-color: #f39c12;
     box-shadow: 0 1px 0 rgba(0,0,0,.15);
     transition: filter 0.4s ease-out;
 }
