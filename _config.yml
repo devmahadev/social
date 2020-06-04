@@ -7,18 +7,18 @@ email: thesocial.tallinn@gmail.com
 description: "thesocial.tallinn@gmail.com"
 
 # Team names, titles and social links
-people:
-- name: Apneet K.
-  pic: 1
-  position: Director HR, Founder/CEO 
+#people:
+#- name: Apneet K.
+#  pic: 1
+#  position: Director HR, Founder/CEO 
  #  social:
  #    - title: facebook
  #      url: #
 
-- name: Deepak R.
-  pic: 3
-  position: Director Finance  |
-   Business & IT Development
+#- name: Deepak R.
+#  pic: 3
+#  position: Director Finance  |
+#   Business & IT Development
  #  social:
   #   - title: instagram
   #     url: #
