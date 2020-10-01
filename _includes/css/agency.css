@@ -956,12 +956,20 @@ footer {
     background: white;
 }
 
+.fa, .fas {
+    font-weight: 900 !important;
+}
+
+.fab, .far {
+    font-weight: 900 !important;
+}
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Lato,sans-serif;
-    line-height: 40px;
+    /* line-height: 40px; */
+    font-weight: 400;
 }
 
 .fa-envelope:before {
@@ -1001,11 +1009,16 @@ footer ul.quicklinks {
     color: #c0a756;
 }
 
+.section_footer__open {
+    display: grid;
+    line-height: 1.7;
+}
+
 .section_footer__open__days {
     font-family: Lato,sans-serif;
-    font-size: .75rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: .05em;
     text-transform: uppercase;
 }
