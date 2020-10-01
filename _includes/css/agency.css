@@ -953,7 +953,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background: aliceblue;
+    background: white;
 }
 
 
@@ -964,12 +964,59 @@ footer span.copyright {
     line-height: 40px;
 }
 
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+}
+
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: Lato,sans-serif;
     line-height: 40px;
+    font-size: 1.3rem;
+    /* font-weight: 400; */
+    /* line-height: 1.7; */
+    /* margin: 0; */
+    /* text-align: left; */
+    /* color: #777; */
+}
+
+.section_footer__heading {
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #c0a756;
+}
+
+.section_footer__open__days {
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px)
+.section_footer__heading {
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 1.1875rem;
 }
 
 ul.social-buttons {
@@ -984,8 +1031,6 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
