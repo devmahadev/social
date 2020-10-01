@@ -2,11 +2,23 @@
     <section id="dailyMeal">
         <div class="container">
 <div class="row text-center">
-    <h2> <a class="page-scroll" href="#quiz"> <STRONG> Pre-order DayMeal & Avoid Waiting Time </STRONG> </a> </h2> <br>
-            <h3 class="section-subheading text-muted"> <STRONG> Our happy hour runs from 11:00 AM - 14:00 on weekdays.</h3>
-</div>
-        <div class="articlep-list inner">
+   <!--  <h2> <a class="page-scroll" href="#quiz"> <STRONG> Pre-order DayMeal & Avoid Waiting Time </STRONG> </a> </h2> <br>-->
+            <h3 class="section-subheading text-muted"> <STRONG> Our happy hour runs from 11:30 AM - 15:00 on weekdays.</h3>
+                    <span class="fa-stack fa-4x" onclick="myFunction4()">
+                        <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag --> 
+                                <i class="fa fa-circle fa-stack-2x text-primary" aria-hidden="true"></i>
+                             <i aria-hidden="true"> <img src="img/dayMeal.png" class="robot-delivery" alt="DayMeal"></i>
+                                         
+                    </span>
+                        <p class="large text-muted" onclick="myFunction4()">Daily Offers</p>					
+                        <p class="text-muted">        
+                            </p><h3 class="section-subheading text-muted"><strong>Best Lunch Menu</strong> in Mustamäe</h3>
+                          <p></p> 
 
+</div>
+
+
+<div id="daymeals"class="articlep-list inner">
 <!-- Monday -->
 <article class="articlep">
         <div class="tag-links">
@@ -161,6 +173,17 @@
         </p>
     </div><!-- .articlep-content -->
 </article><!-- .articlep -->
-		
+        
+<script>
+    function myFunction4() {
+      var x = document.getElementById("daymeals");
+      
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>	
 </div>
 </section>

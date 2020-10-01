@@ -958,10 +958,12 @@ footer {
 
 .fa, .fas {
     font-weight: 900 !important;
+    padding-right: 9px;
 }
 
 .fab, .far {
     font-weight: 900 !important;
+    padding-right: 9px;
 }
 
 footer span.copyright {
