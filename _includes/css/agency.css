@@ -1025,6 +1025,15 @@ footer ul.quicklinks {
     text-transform: uppercase;
 }
 
+.dayMeal-Offer {
+    color: #ef8b17;
+    height: 80%;
+    width: 80%;
+    vertical-align: sub;
+    margin-top: 10px;
+    margin-left: -8px;
+}
+
 .section_footer__open__time {
     font-family: Playfair Display,serif;
     font-size: 1.25rem;
