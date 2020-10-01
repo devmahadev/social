@@ -10,7 +10,7 @@
                              <i aria-hidden="true"> <img src="img/dayMeal.png" class="robot-delivery" alt="DayMeal"></i>
                                          
                     </span>
-                        <p class="large text-muted" onclick="myFunction4()">Daily Offers</p>					
+                        <p class="large text-muted" onclick="dayMealToggle()">Daily Offers</p>					
                         <p class="text-muted">        
                             </p><h3 class="section-subheading text-muted"><strong>Best Lunch Menu</strong> in Mustamäe</h3>
                           <p></p> 
@@ -173,9 +173,9 @@
         </p>
     </div><!-- .articlep-content -->
 </article><!-- .articlep -->
-        
+</div>       
 <script>
-    function myFunction4() {
+    function dayMealToggle() {
       var x = document.getElementById("daymeals");
       
       if (x.style.display === "none") {
