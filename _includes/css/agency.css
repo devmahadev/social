@@ -960,7 +960,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: Lato,sans-serif;
     line-height: 40px;
 }
 
@@ -992,7 +992,7 @@ footer ul.quicklinks {
 
 .section_footer__heading {
     font-family: Lato,sans-serif;
-    font-size: .75rem;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -1008,6 +1008,11 @@ footer ul.quicklinks {
     font-weight: 900;
     letter-spacing: .05em;
     text-transform: uppercase;
+}
+
+.section_footer__open__time {
+    font-family: Playfair Display,serif;
+    font-size: 1.25rem;
 }
 
 @media (min-width: 768px)

@@ -4,12 +4,13 @@
                 <div class="col-md-4">
                     <h5 class="section_footer__heading">
 						CONTACT INFO
-					</h5>
+                    </h5>
+                    <div class="section_footer__open">
+						<div class="fas fa-map-marker-alt">Akadeemia tee 24, Tallinn</div>
+                        <div class="far fa-envelope">thesocial.tallinn@gmail.com</div>
+                        <div class="fas fa-phone">+372 56854024</div>
+                    </div>
                     <ul class="list-inline quicklinks">
-                        <li>The Social</li><br>
-                        <li class="fas fa-map-marker-alt"> Akadeemia tee 24, Tallinn.</li>
-                        <li class="far fa-envelope">thesocial.tallinn@gmail.com</li>
-                        <li class="fas fa-phone">56854024</li>
                         {% for network in site.social %}
                         <li>
                             <a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
@@ -22,7 +23,7 @@
 						OPENING HOURS
 					</h5>
                     <div class="section_footer__open">
-						<div class="section_footer__open__days">Monday - fRIDAY</div>
+						<div class="section_footer__open__days">Monday - FRIDAY</div>
 						<div class="section_footer__open__time">11:30 AM - 10:00 PM</div>
                     </div>
                     <div class="section_footer__open">
@@ -34,13 +35,11 @@
                     <h5 class="section_footer__heading">
 						ABOUT US
 					</h5>
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                    <ul class="list-inline quicklinks">
-                        <li>
-                            Web.Dev <a href="https://www.facebook.com/deepak.rampal.963" target="_blank">@Silicon DevOps</a>
-                        </li>  <br>
-                        <li><a href="">HH.Mahadev Oü (14429267)</a></li>
-                    </ul>
+                    <div class="section_footer__open">
+                        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+						<div class="section_footer__open__days">Web.Dev <a href="https://www.facebook.com/deepak.rampal.963" target="_blank">@Silicon DevOps</a></div>
+						<div class="section_footer__open__time"><a href="">HH.Mahadev Oü (14429267)</a></div>
+                    </div>
                 </div>
             </div>
         </div>
