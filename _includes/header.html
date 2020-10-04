@@ -87,6 +87,14 @@
    </video>
         <div class="container">
             <div class="intro-text">
+                <ul class="list-inline quicklinks">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}">
+                            <i class="fab fa-{{ network.title }} fa-lg" style="color: white !important;"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
 			     <div class="intro-heading">Bar | Restaurant | BBQ</div> 
                 <div class="intro-lead-in">Eat Drink & Go S(@)cial</div>
                 <a href="#contact" class="page-scroll btn btn-x11">Book Table</a>
