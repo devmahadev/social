@@ -368,10 +368,10 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    /*margin-bottom: 25px;*/
-    font-family: "Great Vibes", serif;
+    margin-bottom: 25px;
+    font-family: cursive;
     font-size: 22px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 22px;
 }
 
@@ -379,7 +379,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: "Great Vibes", serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -393,7 +393,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Great Vibes", serif;
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
         line-height: 40px;
     }
@@ -958,12 +958,12 @@ footer {
 
 .fa, .fas {
     font-weight: 900 !important;
-    padding-right: 9px;
+    /* padding-right: 9px; */
 }
 
 .fab, .far {
     font-weight: 900 !important;
-    padding-right: 9px;
+    /* padding-right: 9px; */
 }
 
 footer span.copyright {
