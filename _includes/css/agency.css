@@ -1352,6 +1352,15 @@ ul li:hover ul .submenu{ display: block;}
     color: #ef8b17;
 height: 120%;width: 120%;vertical-align: sub;margin-top: -35px;margin-left: -15px;}
 
+.direct-delivery {
+    color: #ef8b17;
+    height: 92%;
+    width: 84%;
+    vertical-align: sub;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
 .fa-inverse-taltech{
     color: #7bd429; 
 }
