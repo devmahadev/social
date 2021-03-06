@@ -408,6 +408,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
 .iconLink {    
+    display: flex;
     flex-grow: 0;
     flex-shrink: 1;
     flex-direction: row;
@@ -417,7 +418,6 @@ header .intro-text .intro-heading {
 }
 
 .iconLink {    
-    display: flex;
     flex-grow: 0;
     flex-shrink: 1;
     flex-direction: row;
