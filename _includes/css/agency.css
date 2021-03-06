@@ -369,7 +369,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: cursive;
+    font-family: "Great Vibes", serif;
     font-size: 22px;
     /* font-style: italic; */
     line-height: 22px;
@@ -391,7 +391,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 15px;
-        font-family: cursive;
+        font-family: "Great Vibes", serif;
         font-size: 30px;
         line-height: 40px;
     }
