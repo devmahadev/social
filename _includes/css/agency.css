@@ -342,12 +342,11 @@ header {
     /* background-attachment: scroll; */
     /* background-image: url(/img/TheSocialCover.mp4); */
     background-position: center center;
+    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 6rem;
-    background-repeat: no-repeat;
 }
 
 .wrapper__video {
@@ -428,7 +427,7 @@ header .intro-text .intro-heading {
 
 
 section {
-    padding: 6rem 0;
+    padding: 100px 0;
 }
 
 section h2.section-heading {
