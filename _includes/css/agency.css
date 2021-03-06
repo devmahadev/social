@@ -368,7 +368,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: cursive;
     font-size: 22px;
     /* font-style: italic; */
@@ -376,7 +376,6 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: "Great Vibes", serif;
     font-size: 25px;
@@ -391,10 +390,9 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Great Vibes", serif;
+        margin-bottom: 15px;
+        font-family: cursive;
         font-size: 30px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -407,6 +405,26 @@ header .intro-text .intro-heading {
         line-height: 75px;
     }
 }
+
+@media(min-width:768px) {
+.iconLink {    
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+.iconLink {    
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 section {
     padding: 100px 0;
