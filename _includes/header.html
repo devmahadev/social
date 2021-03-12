@@ -17,7 +17,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="EE_Country" style="display: none;">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 EE_Country" style="display: none;">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -75,7 +75,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            <div class="collapse navbar-collapse" id="EN_Country" style="display: block;">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 EN_Country" style="display: block;">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -144,6 +144,9 @@
    </video>
         <div class="container">
             <div class="intro-text">
+                <p class="large text-muted" onclick="changeCountryEE()"><a>EE</a></p>					
+                <p class="large text-muted" onclick="changeCountryEN()"><a>EN</a></p>					
+
                 <ul class="list-inline quicklinks">
                     {% for network in site.social %}
                     <li>
@@ -151,13 +154,6 @@
                             <i class="fab fa-{{ network.title }} fa-lg" style="color: white !important;"></i></a>
                     </li>
                     {% endfor %}
-                    c
-                    <li>
-                        <p class="large text-muted" onclick="changeCountryEE()"><a>EE</a></p>	
-                    </li>
-                    <li>				
-                        <p class="large text-muted" onclick="changeCountryEN()"><a>EN</a></p>					
-                    </li>	
                 </ul>
 			     <div class="intro-heading">Cafe & Resto</div> 
                 <div class="intro-lead-in">Eat Drink & Go S(#)cial</div>
@@ -188,8 +184,9 @@
                     y.style.display === "none"
                 }
             }
-
-            function changeCountryEN() {
+            </script>
+            <script>
+                function changeCountryEN() {
                   var x = document.getElementById("EE_Country");
                   var y = document.getElementById("EN_Country");
                   
@@ -198,8 +195,8 @@
                     x.style.display === "none"
                 }
             }
-            </script>
-	
+             </script>		
+            
         </div>
 
     </header>
