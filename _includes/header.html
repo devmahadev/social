@@ -17,7 +17,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="EECountry" style="display: none;">
+            <div class="EECountry collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="display: none;">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -76,7 +76,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            <div class="collapse navbar-collapse" id="ENCountry" style="display: block;">
+            <div class="ENCountry collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="display: block;">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -180,8 +180,8 @@
             </div>
             <script>
                 function changeCountryEE() {
-                  var x = document.getElementById("EECountry");
-                  var y = document.getElementById("ENCountry");
+                  var x = document.getElementsByClassName("EECountry");
+                  var y = document.getElementsByClassName("ENCountry");
                   
                   if (x.style.display === "none") {
                     x.style.display = "block";
@@ -191,8 +191,8 @@
         </script>
         <script>
             function changeCountryEN() {
-                  var x = document.getElementById("EECountry");
-                  var y = document.getElementById("ENCountry");
+                  var x = document.getElementsByClassName("EECountry");
+                  var y = document.getElementsByClassName("ENCountry");
                   
                   if (y.style.display === "none") {
                     y.style.display = "block";
