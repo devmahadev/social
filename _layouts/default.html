@@ -6,34 +6,26 @@
 
     <body id="page-top" class="index">
 
-      <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Subscribe our Newsletter</h5>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email Address">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
     {% include header.html %}          <!-- Header Title -->
     {% include orderFood.html %}   
 	{% include paymentOnline.html %} 	   <!-- membership -->
 	{% include coronaInfo.html %} 
     {% include dailyMeal.html %} 
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Indian Corner</h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <p>A PREMIUM INDIAN RESTAURANT by Social Restaurant Group </p>
+                  <p>Located:Tartu maantee 87d near 'Sikupilli-Prisma'</p>
+                  <button type="button" class="btn btn-primary">Indian Corner</button>
+              </div>
+          </div>
+      </div>
+  </div>
    <!-- menuItems.html --> 
     {% include catering.html %}  <!-- News -->
    <!--  quiz.html -->
