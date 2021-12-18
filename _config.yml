@@ -40,7 +40,7 @@ people:
 
 - name: Abhishek R.
   pic: 5
-  position: Director Restaurant Operations | Manager
+  position: Owner | Director Restaurant Operations | Manager
  #  social:
   #   - title: instagram
   #     url: #
@@ -49,7 +49,7 @@ people:
   #   - title: google-plus
   #     url: #
 
-- name: Rajesh B.
+- name: Mukesh B.
   pic: 4
   position: Head Chef | Tandoor, Grill Master
  #  social:
@@ -60,7 +60,7 @@ people:
   #   - title: google-plus
   #     url: #
 
-- name: EkRaj G.
+- name: Mohit S.
   pic: 6
   position: Head Chef | Curry Master
  #  social:
@@ -78,6 +78,8 @@ social:
     url: https://www.instagram.com/thesocialtallinn/
   - title: facebook-f
     url: https://www.facebook.com/thesocial.tallinn/
+  - title: facebook-f
+    url: https://www.facebook.com/thesocial.tallinn/
   #- title: stack-overflow
   #  url: http://stackoverflow.com/questions/tagged/jekyll
  # - title: bitbucket 
@@ -87,8 +89,12 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Akadeemia tee 24
-  - line: Mustamäe, 12611 Tallinn
+  - line: Akadeemia tee 15a
+  - line: Mustamäe, 12616 Tallinn
+
+language:
+  - country: EE
+  - country: EN  
 
 # Build settings
 #markdown: kramdown
